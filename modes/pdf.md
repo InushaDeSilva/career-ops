@@ -35,22 +35,26 @@
 
 - **Fonts**: Space Grotesk (headings, 600-700) + DM Sans (body, 400-500)
 - **Fonts self-hosted**: `fonts/`
-- **Header**: nombre en Space Grotesk 24px bold + línea gradiente `linear-gradient(to right, hsl(187,74%,32%), hsl(270,70%,45%))` 2px + fila de contacto
-- **Section headers**: Space Grotesk 13px, uppercase, letter-spacing 0.05em, color cyan primary
-- **Body**: DM Sans 11px, line-height 1.5
-- **Company names**: color accent purple `hsl(270,70%,45%)`
-- **Márgenes**: 0.6in
+- **Header**: nombre en Space Grotesk 22px bold uppercase, centered, thin 1px solid black line below, contact row centered below
+- **Section headers**: Space Grotesk 10px, uppercase, letter-spacing 0.08em, color #111, thin 0.5px gray line below
+- **Body**: DM Sans 9.5px, line-height 1.4
+- **Company names**: Space Grotesk 10px, bold, color #111
+- **Color scheme**: Navy blue accents. Name/headings/companies in navy (#1a3a5c), links in medium blue (#2a5a8a), chips/badges in light blue (#e8f0f8 bg, #c5d5e8 border), body text dark gray (#222/#333)
+- **Skills**: Rendered as chips (class `chip`) — small gray rounded tags, 8px font
+- **Margenes**: 0.35in top/bottom, 0.4in left/right (tight — use the full page, don't waste space on margins)
 - **Background**: blanco puro
+- **Target**: ONE PAGE. Everything must fit on a single page. Reduce bullets and trim less-relevant roles before ever going to page 2.
+- **No Core Competencies section** — skills chips replace this entirely
 
 ## Orden de secciones (optimizado "6-second recruiter scan")
 
-1. Header (nombre grande, gradiente, contacto, link portfolio)
-2. Professional Summary (3-4 líneas, keyword-dense)
-3. Core Competencies (6-8 keyword phrases en flex-grid)
-4. Work Experience (cronológico inverso)
-5. Projects (top 3-4 más relevantes)
-6. Education & Certifications
-7. Skills (idiomas + técnicos)
+1. Header (nombre centered, uppercase, thin black line, contact row centered)
+2. Summary (1-2 sentences, natural tone, mention student status, NO website reference)
+3. Skills (all skills as individual chips — small gray rounded tags, NO categorized lists)
+4. Experience (reverse chronological, tight bullets, trim to fit one page)
+5. Projects (top 3-5, descriptions focus on purpose/functionality NOT tech)
+6. Education
+7. Leadership
 
 ## Estrategia de keyword injection (ético, basado en verdad)
 
